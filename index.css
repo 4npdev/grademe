@@ -1,0 +1,16 @@
+:root {
+    --background: #141414;
+    --primary: #D2F3FA;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    user-select: none;
+    margin: 0;
+    background: var(--background);
+    min-height: 100svh;
+}

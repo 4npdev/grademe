@@ -1,0 +1,32 @@
+.home {
+    padding: 1rem;
+}
+
+.home header {
+    padding: 2rem 0;
+}
+
+.home header h1 {
+    color: var(--primary);
+}
+
+.home-gpa {
+    background: var(--primary);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px;
+}
+
+.home-gpa h2 {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.home-gpa p {
+    font-weight: 600;
+    font-size: 3rem;
+    margin: 0;
+}
