@@ -1,14 +1,15 @@
 const CACHE_NAME = 'grademe-v1';
 const ASSETS = [
-  './',
-  './index.html',
-  './index.css',
-  './css/home.css',
-  './css/grades.css',
-  './js/storage.js',
-  './app.js',
-  './manifest.json',
-  './assets/GradeMe.png'
+  '/',
+  'index.html',
+  'index.css',
+  'css/home.css',
+  'css/grades.css',
+  'js/storage.js',
+  'app.js',
+  'manifest.json',
+  'assets/icon-192.png',
+  'assets/icon-512.png'
 ];
 
 self.addEventListener('install', e => {
