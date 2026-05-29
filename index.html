@@ -15,7 +15,7 @@
 </head>
 <body>
     <main>
-        <div class="home">
+        <div class="home" id="home">
             <header class="screen-header">
                 <h1>Welcome back.</h1>
             </header>
@@ -26,7 +26,7 @@
             </section>
         </div>
 
-        <div class="grades">
+        <div class="grades" id="grades">
             <header class="screen-header">
                 <h1>Grades</h1>
             </header>
@@ -75,11 +75,11 @@
     </main>
 
     <nav>
-        <button class="nav-btn"><iconify-icon icon="material-symbols:home-outline-rounded"></iconify-icon><span>Home</span></button>
-        <button class="nav-btn"><iconify-icon icon="material-symbols:list-rounded"></iconify-icon><span>Grades</span></button>
+        <button onclick="goHome()" class="nav-btn"><iconify-icon icon="material-symbols:home-outline-rounded"></iconify-icon><span>Home</span></button>
+        <button onclick="goGrades()" class="nav-btn"><iconify-icon icon="material-symbols:list-rounded"></iconify-icon><span>Grades</span></button>
         <div class="add-btn">+</div>
-        <button class="nav-btn"><iconify-icon icon="material-symbols:table-outline"></iconify-icon><span>Timetable</span></button>
-        <button class="nav-btn"><iconify-icon icon="material-symbols:event-outline"></iconify-icon><span>Events</span></button>
+        <button onclick="goTimetable()" class="nav-btn"><iconify-icon icon="material-symbols:table-outline"></iconify-icon><span>Timetable</span></button>
+        <button onclick="goEvents()" class="nav-btn"><iconify-icon icon="material-symbols:event-outline"></iconify-icon><span>Events</span></button>
     </nav>
     <script src="js/storage.js"></script>
     <script src="app.js"></script>

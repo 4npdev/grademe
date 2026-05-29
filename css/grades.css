@@ -1,4 +1,7 @@
 .grades {
+    display: none;}
+
+.grades.show {
     display: block;
 }
 

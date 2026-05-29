@@ -1,3 +1,7 @@
 .home {
     display: none;
 }
+
+.home.show {
+    display: block;
+}
