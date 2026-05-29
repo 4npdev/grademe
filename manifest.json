@@ -9,14 +9,16 @@
   "orientation": "portrait",
   "icons": [
     {
-      "src": "assets/GradeMe192.jpg",
+      "src": "assets/GradeMe192.png",
       "sizes": "192x192",
-      "type": "image/jpeg"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
-      "src": "assets/GradeMe512.jpeg",
+      "src": "assets/GradeMe512.png",
       "sizes": "512x512",
-      "type": "image/jpeg"
+      "type": "image/png",
+      "purpose": "any"
     }
   ]
 }
