@@ -9,13 +9,13 @@
   "orientation": "portrait",
   "icons": [
     {
-      "src": "https://img.icons8.com/fluency/192/checked-user-male.png",
+      "src": "assets/GradeMe192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "https://img.icons8.com/fluency/512/checked-user-male.png",
+      "src": "assets/GradeMe512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
@@ -23,14 +23,14 @@
   ],
   "screenshots": [
     {
-      "src": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1280&h=720&fit=crop",
+      "src": "assets/project_screen.png",
       "sizes": "1280x720",
       "type": "image/jpeg",
       "form_factor": "wide",
       "label": "GradeMe Dashboard View"
     },
     {
-      "src": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=750&h=1334&fit=crop",
+      "src": "assets/project_screen_2.png",
       "sizes": "750x1334",
       "type": "image/jpeg",
       "form_factor": "narrow",
