@@ -37,39 +37,8 @@
             </section>
 
             <section class="subject-grades">
-                    <div class="subject-container">
-                        <div class="subject">
-                        <div class="subject-left">
-                            <h2>Matematika</h2>
-                            <p>5, 1, 2, 2</p>
-                        </div>
-
-                        <div class="subject-right">
-                            <p>2.5</p>
-                        </div>
-                    </div>
-                    <div class="subject">
-                        <div class="subject-left">
-                            <h2>Srpski</h2>
-                            <p>No grades yet.</p>
-                        </div>
-
-                        <div class="subject-right">
-                            <p></p>
-                        </div>
-                    </div>
-                    <div class="subject" style="background: var(--failing-grade);">
-                        <div class="subject-left">
-                            <h2>Web</h2>
-                            <p>1, 1, 2</p>
-                        </div>
-
-                        <div class="subject-right">
-                            <p>1.3</p>
-                        </div>
-                    </div>
-                </div>
-                <button class="btn-1">Add subject</button>
+                <div class="subject-container" id="subject-container"></div>
+                <button class="btn-1" onclick="openAddSubject()">Add subject</button>
             </section>
         </div>
     </main>
@@ -81,6 +50,23 @@
         <button onclick="goTimetable()" class="nav-btn"><iconify-icon icon="material-symbols:table-outline"></iconify-icon><span>Timetable</span></button>
         <button onclick="goEvents()" class="nav-btn"><iconify-icon icon="material-symbols:event-outline"></iconify-icon><span>Events</span></button>
     </nav>
+
+    <div class="add-subject-screen" id="add-subject-screen">
+        <div class="add-subject-content">
+            <h2>Add subject</h2>
+            <input id="add-subject-input" type="text" placeholder="Subject name">
+            <button onclick="addSubject()">Add</button>
+            <button onclick="closeAddSubject()">Cancel</button>
+        </div>
+    </div>
+
+    <div class="subject-menu-screen" id="subject-menu-screen">
+        <div class="subject-menu-container">
+            <h2 id="subject-menu-h2">67</h2>
+            <ul id="subject-menu-grades">23 <br> 23</ul>
+            <button onclick="removeSubject()">Remove subject</button>
+        </div>
+    </div>
     <script src="js/storage.js"></script>
     <script src="app.js"></script>
 </body>
